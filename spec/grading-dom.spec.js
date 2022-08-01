@@ -81,7 +81,7 @@ describe ("GRADING DOM MANIPULATION TEST: ", function () {
      expect(h2.style.color).toEqual("rgb(199, 37, 78)");
      expect(h2.textContent).toEqual("Shuttle Not Ready for Launch");
      expect(pilotStatus.textContent).toEqual("Pilot Chris is ready for launch");
-      expect(copilotStatus.textContent).toEqual("Co-pilot Bob is ready for launch");
+     expect(copilotStatus.textContent).toEqual("Co-pilot Bob is ready for launch");
      expect(fuelStatus.textContent).toEqual("Fuel level high enough for launch");
      expect(cargoStatus.textContent).toEqual("Cargo mass too heavy for launch");
 
